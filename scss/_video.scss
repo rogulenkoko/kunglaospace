@@ -37,7 +37,7 @@
                 left: 50%;
                 @include transform(translate(-50%,-50%)) ;
                 a{
-                    background: #ED1B1B;
+                    background: #c5b3ed;
                     width: 58px;
                     height: 58px;
                     @include border-radius(50%);
@@ -69,7 +69,7 @@
                 span{
                     font-size: 14px;
                     font-weight: 400;
-                    color: #ED1B1B;
+                    color: #c5b3ed;
                     font-family: $font2;
                     @include transition(.4s);
                     position: relative;
@@ -141,10 +141,10 @@
     content: '';
     width: 4px;
     height: 14px;
-    background-color: #ED1B1B;
+    background-color: #c5b3ed;
 }
 .audioplayer-playing .audioplayer-playpause {
     background: 
 rgba(253, 79, 26, 0);
-border: 1px solid #ED1B1B;
+border: 1px solid #c5b3ed;
 }
