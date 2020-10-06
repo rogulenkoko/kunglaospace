@@ -1720,7 +1720,8 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .music_area {
+
+  .music_area_main{
     display: none;
   }
 }
