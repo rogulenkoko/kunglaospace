@@ -210,43 +210,4 @@
             }
         }
     }
-    .socail_links{
-        margin-top: 47px;
-        @media #{$mobile_device} {
-            margin-top: 30px;
-        }
-        ul{
-            li{
-                display: inline-block;
-                margin-right: 7px;
-                a{
-                    width: 38px !important;
-                    height: 38px !important;
-                    @include border-radius(50%);
-                    text-align: center;
-                    line-height: 38px !important;
-                    display: inline-block;
-                    background: #3B5797;
-                    color: #fff;
-                    line-height: 40px !important;
-                 &:hover{
-                     color: #fff !important;
-                     background: #c5b3ed;
-                 }
-                }
-                &:nth-child(2) a{
-                    background: #DB4337;
-                }
-                &:nth-child(3) a{
-                    background: #00ACED;
-                }
-                &:nth-child(4) a{
-                    background: #BB0000
-                }
-                &:nth-child(5) a{
-                    background: #AC907A
-                }
-            }
-        }
-    }
 }

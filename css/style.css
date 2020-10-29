@@ -994,24 +994,6 @@ h3 {
 .header-area .main-header-area .Appointment .search_button a i {
   color: #E8E8E8;
 }
-
-/* line 108, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li {
-  display: inline-block;
-}
-
-/* line 111, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a {
-  color: #A8A7A0;
-  margin: 0 10px;
-  font-size: 15px;
-}
-
-/* line 115, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a:hover {
-  color: #fff;
-}
-
 /* line 122, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn {
   margin-left: 30px;
@@ -2683,30 +2665,30 @@ h3 {
 
 /* line 6, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 100px;
-  padding-bottom: 129px;
+  padding-top: 24px;
+  padding-bottom: 36px;
   background: rgba(139, 142, 235, 0.8);
 }
 
 @media (max-width: 767px) {
   /* line 6, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
 @media (max-width: 767px) {
   /* line 15, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 15, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 }
 
@@ -2792,24 +2774,6 @@ h3 {
 /* line 75, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a.first {
   margin-bottom: 10px;
-}
-
-/* line 83, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .footer_top .footer_widget ul li {
-  color: #D5D5D5;
-  font-size: 13px;
-  line-height: 28px;
-  font-weight: 400;
-}
-
-/* line 88, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .footer_top .footer_widget ul li a {
-  color: #C7C7C7;
-}
-
-/* line 90, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .footer_top .footer_widget ul li a:hover {
-  color: #c5b3ed;
 }
 
 /* line 96, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
@@ -2984,25 +2948,25 @@ h3 {
 }
 
 /* line 213, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links {
+.footer .socail_links_header {
   margin-top: 12px;
 }
 
 @media (max-width: 767px) {
   /* line 213, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-  .footer .socail_links {
+  .footer .socail_links_header {
     margin-top: 12px;
   }
 }
 
 /* line 219, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li {
+.footer .socail_links_header ul li {
   display: inline-block;
   margin-right: 7px;
 }
 
 /* line 222, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li a {
+.socail_links_header ul li a {
   width: 38px !important;
   height: 38px !important;
   -webkit-border-radius: 50%;
@@ -3011,35 +2975,9 @@ h3 {
   text-align: center;
   line-height: 38px !important;
   display: inline-block;
-  background: #3B5797;
+  border: 1px solid #fff;
   color: #fff;
   line-height: 40px !important;
-}
-
-/* line 232, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li a:hover {
-  color: #fff !important;
-  background: #c5b3ed;
-}
-
-/* line 237, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li:nth-child(2) a {
-  background: #DB4337;
-}
-
-/* line 240, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li:nth-child(3) a {
-  background: #00ACED;
-}
-
-/* line 243, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li:nth-child(4) a {
-  background: #BB0000;
-}
-
-/* line 246, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_footer.scss */
-.footer .socail_links ul li:nth-child(5) a {
-  background: #AC907A;
 }
 
 /* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_bradcam.scss */
